@@ -10,5 +10,4 @@ spec:
     - name: redis-db-container
       image: redis
       ports:
-        containerPort: 6379
-
+        - containerPort: 6379
